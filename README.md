@@ -24,7 +24,7 @@ This Task Management System (TMS) is a modern, responsive web application design
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/your-username/your-repo-name.git](https://github.com/davislyu/TaskManagment-Chakra-UI
 cd your-repo-name
 
 # Install dependencies
