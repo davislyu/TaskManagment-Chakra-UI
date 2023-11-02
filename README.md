@@ -34,10 +34,10 @@ npm install
 npm run dev
 
 # Start JSON Server
-npx json-server --watch ./data/db.json --port 3000
+npx json-server --watch ./data/db.json 
 ```
 
-Your API will be available at `http://localhost:3000`, and the React app will be available at `http://localhost:5173`.
+Your API will be available at `http://localhost:3000/tasks`, and the React app will be available at `http://localhost:5173`.
 
 ## Running the Project
 
