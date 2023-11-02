@@ -11,6 +11,8 @@ import {
   Wrap,
   WrapItem,
   VStack,
+  Avatar,
+  AvatarBadge,
 } from "@chakra-ui/react";
 import React from "react";
 
@@ -38,9 +40,13 @@ export default function Navbar() {
 
       <Spacer />
       <HStack spacing="20px">
-        <Box bg="gray.200" p="10px">
-          M
-        </Box>
+        <Avatar name="Mario " src="/img/mario.png">
+          <AvatarBadge bg="teal.400" width="1.3em">
+            <Text fontSize="sm" color="white">
+              3
+            </Text>
+          </AvatarBadge>
+        </Avatar>
         <Text>Davis@gmail.com</Text>
         <Button
           colorScheme="purple"
