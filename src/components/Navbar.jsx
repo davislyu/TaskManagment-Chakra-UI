@@ -1,3 +1,4 @@
+import { UnlockIcon } from "@chakra-ui/icons";
 import {
   Flex,
   Box,
@@ -29,6 +30,8 @@ export default function Navbar() {
               title: `Logged out successfully`,
               position: "top",
               isClosable: true,
+              icon: <UnlockIcon />,
+              colorScheme: "green",
             });
           }}
         >
